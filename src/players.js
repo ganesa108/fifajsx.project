@@ -18,7 +18,7 @@ export default [
     image: lewandowski,
   },
   {
-    name: "Torres",
+    playerName: "Torres",
     team: "FC Barcelona",
     nationality: "Spanish",
     jerseyNumber: 11,
