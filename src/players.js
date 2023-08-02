@@ -1,4 +1,3 @@
-
 import torres from "./imgs/ferranTorres.png";
 import messi from "./imgs/messi.avif";
 import raphinha from "./imgs/raphinha.webp";
@@ -17,7 +16,7 @@ export default [
     image: torres,
   },
   {
-    name: "Messi",
+    playerName: "Messi",
     team: "FC Barcelona",
     nationality: "Argentinian",
     jerseyNumber: 10,
@@ -25,7 +24,7 @@ export default [
     image: messi,
   },
   {
-    name: "Raphinha",
+    playerName: "Raphinha",
     team: "FC Barcelona",
     nationality: "Brasilian",
     jerseyNumber: 22,
@@ -33,7 +32,7 @@ export default [
     image: raphinha,
   },
   {
-    name: "Pedri",
+    playerName: "Pedri",
     team: "FC Barcelona",
     nationality: "Spanish",
     jerseyNumber: 8,
