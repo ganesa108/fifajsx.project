@@ -1,7 +1,7 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import data from "./players";
-import player from "./components/Player";
-import PlayerJS from "./components/Player";
+import player from "./data/Player";
+import PlayerJS from "./data/Player";
 import PlayerList from "./components/PlayerList";
 import NavigationBar from "./components/NavigationBar";
 

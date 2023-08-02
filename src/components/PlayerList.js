@@ -1,4 +1,4 @@
-import Player from "./Player";
+import Player from "../data/Player";
 import jsonData from "../players";
 
 function PlayerList() {
