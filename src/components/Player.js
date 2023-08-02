@@ -4,9 +4,13 @@ import ListGroup from "react-bootstrap/ListGroup";
 function Player({ playerName, team, nationality, jerseyNumber, age, image }) {
   return (
     <>
-      <Card style={{ width: "18rem", border: "none"}}>
+      <Card style={{ width: "18rem", border: "none" }}>
         {/* image */}
-        <Card.Img variant="top" src={image} />
+        <Card.Img
+          variant="top"
+          src={image}
+          style={{ width: 320, height: 400 }}
+        />
         {/* card contents */}
         <Card.Body>
           {/* player name */}
