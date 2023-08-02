@@ -1,7 +1,7 @@
 import Card from "react-bootstrap/Card";
 import ListGroup from "react-bootstrap/ListGroup";
 
-function PlayerJS(props) {
+function Player({playerName, team, nationality, jerseyNumber, age, image}) {
   return (
     <>
       <Card style={{ width: "18rem" }}>
@@ -16,12 +16,10 @@ function PlayerJS(props) {
           <ListGroup.Item>{age} years old.</ListGroup.Item>
         </ListGroup>
         <Card.Body>
-          <Card.Link href="#">Card Link</Card.Link>
-          <Card.Link href="#">Another Link</Card.Link>
         </Card.Body>
       </Card>
     </>
   );
 }
 
-export default PlayerJS;
+export default Player;

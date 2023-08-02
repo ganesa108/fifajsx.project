@@ -1,5 +1,4 @@
-import lewandowski from "./imgs/lewandowski.png";
-import lewandowskiTwo from "./imgs/lewandowski2.webp";
+
 import torres from "./imgs/ferranTorres.png";
 import messi from "./imgs/messi.avif";
 import raphinha from "./imgs/raphinha.webp";
@@ -9,14 +8,6 @@ import pedri from "./imgs/pedri.webp";
 // JSON array of objects
 
 export default [
-  {
-    name: "Lewandowski",
-    team: "FC Barcelona",
-    nationality: "Polish",
-    jerseyNumber: 9,
-    age: 34,
-    image: lewandowski,
-  },
   {
     playerName: "Torres",
     team: "FC Barcelona",
